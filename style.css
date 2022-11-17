@@ -1,0 +1,18 @@
+/*Set box-sizing to border-box*/
+*, *::before, *::after {box-sizing: inherit; }
+
+html {
+	box-sizing: border-box;
+}
+
+#logo {
+background-image: url("SageStith.jpg");
+background-repeat: no-repeat;
+padding-top: 200px;
+padding-bottom: 200px;
+}
+
+h1 {
+    margin: 0;
+    background-color: white;
+}
