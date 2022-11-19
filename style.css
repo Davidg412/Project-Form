@@ -7,11 +7,17 @@ html {
     display: flex;
 }
 
+body {
+    display: flex;
+}
+
+/*Allowed me to use the font within a saved file, and give it a custom name (font-family)*/
 @font-face {
     font-family: odinLogo;
     src: url(Norse-Bold.otf);
 }
 
+/*Always put the background image in the CSS, not the HTML.*/
 #background {
 background-image: url("SageStith.jpg");
 background-repeat: no-repeat;
@@ -46,7 +52,11 @@ h1 {
     background-color: rgba(0,0,0,.5);
 }
 
-
-body {
-    display: flex;
+/*Position: absolute allowed me to overwrite the location of the citing*/
+cite {
+    color: white;
+    position: absolute; 
+    bottom: .5rem;
+    left: 12.5rem;
 }
+
