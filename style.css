@@ -9,6 +9,7 @@ html {
 
 body {
     display: flex;
+    background-color: rgb(141, 171, 135);
 }
 
 /*Allowed me to use the font within a saved file, and give it a custom name (font-family)*/
@@ -58,7 +59,7 @@ cite {
     color: white;
     position: absolute; 
     bottom: .5rem;
-    left: 10rem;
+    left: 14rem;
 }
 
 .intro {
@@ -75,6 +76,7 @@ form {
     padding-left: 5rem;
     display: flex;
     flex-wrap: wrap;
+    background-color: whitesmoke;
 }
 
 /*Width 100% allows the box to take up the entire row*/
@@ -90,6 +92,7 @@ form {
 /*Each div will take up 50% space, hence 2 divs per row*/
 form div {
     flex: 50%;
+    padding-bottom: 2rem;
 }
 
 /*Used to visually put the label titles on top of the input fields*/
@@ -97,17 +100,43 @@ input, label {
     display: block;
 }
 
-.name {
-    
+input:hover {
+    background-color: silver;
 }
+
 
 /*width allowed the button to occupy it's own row*/
 .crbutton {
     width: 100%;
 }
 
+button {
+    border-radius: .5rem;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: .5rem 2rem .5rem 2rem;
+    background-color: rgb(141, 171, 135);
+    box-shadow: 0 9px #999;
+}
 
+button:hover {
+    background-color: #105612
+}
 
+button :active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.signin {
+    margin: 0;
+}
+
+.end {
+    padding-left: 5rem;
+    padding-top: 3rem;
+}
 /*
 .container-2 {
     padding-right: 26rem;
