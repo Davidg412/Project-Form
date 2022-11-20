@@ -40,6 +40,7 @@ h1 {
     font-family: odinLogo;
 }
 
+
 .logo {
     width: 9rem;
 }
@@ -68,6 +69,44 @@ cite {
     font-weight: bold;
     font-family: serif;
 }
+
+form {
+    padding-right: 26rem;
+    padding-left: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Width 100% allows the box to take up the entire row*/
+.sec1 {
+    margin: 0;
+    padding: 1rem 0 1rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: serif;
+    width: 100%;
+}
+
+/*Each div will take up 50% space, hence 2 divs per row*/
+form div {
+    flex: 50%;
+}
+
+/*Used to visually put the label titles on top of the input fields*/
+input, label {
+    display: block;
+}
+
+.name {
+    
+}
+
+/*width allowed the button to occupy it's own row*/
+.crbutton {
+    width: 100%;
+}
+
+
 
 /*
 .container-2 {
