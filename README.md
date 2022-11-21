@@ -1,4 +1,4 @@
-# Project-Form
+# Project: Sign-Up Form
 
 This is "Project: Sign-up Form" from The Odin Project's full stack Javascript path, intermediate HTML and CSS section. The purpose of this project was to practice creating a form with the HTML form controls and various CSS concepts studied in the course. CSS Flexbox was used as the primary layout style to style this page and I was able to implement the use of psuedo-classes and psuedo-elements to make my form's style dynamic.
 
